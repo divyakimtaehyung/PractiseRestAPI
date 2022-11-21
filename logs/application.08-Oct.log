@@ -1,0 +1,182 @@
+2021-10-08 16:49:05 DEBUG Get connection for route {s}->https://rahulshettyacademy.com:443
+2021-10-08 16:49:05 DEBUG Connecting to rahulshettyacademy.com:443
+2021-10-08 16:49:05 DEBUG CookieSpec selected: ignoreCookies
+2021-10-08 16:49:05 DEBUG Auth cache not set in the context
+2021-10-08 16:49:05 DEBUG Target auth state: UNCHALLENGED
+2021-10-08 16:49:05 DEBUG Proxy auth state: UNCHALLENGED
+2021-10-08 16:49:05 DEBUG Attempt 1 to execute request
+2021-10-08 16:49:05 DEBUG Sending request: POST /maps/api/place/add/json?key=qaclick123 HTTP/1.1
+2021-10-08 16:49:05 DEBUG  >> "POST /maps/api/place/add/json?key=qaclick123 HTTP/1.1[\r][\n]"
+2021-10-08 16:49:05 DEBUG  >> "Accept: */*[\r][\n]"
+2021-10-08 16:49:05 DEBUG  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2021-10-08 16:49:05 DEBUG  >> "Content-Length: 337[\r][\n]"
+2021-10-08 16:49:05 DEBUG  >> "Host: rahulshettyacademy.com[\r][\n]"
+2021-10-08 16:49:05 DEBUG  >> "Connection: Keep-Alive[\r][\n]"
+2021-10-08 16:49:05 DEBUG  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_292)[\r][\n]"
+2021-10-08 16:49:05 DEBUG  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-10-08 16:49:05 DEBUG  >> "[\r][\n]"
+2021-10-08 16:49:05 DEBUG >> POST /maps/api/place/add/json?key=qaclick123 HTTP/1.1
+2021-10-08 16:49:05 DEBUG >> Accept: */*
+2021-10-08 16:49:05 DEBUG >> Content-Type: application/json; charset=UTF-8
+2021-10-08 16:49:05 DEBUG >> Content-Length: 337
+2021-10-08 16:49:05 DEBUG >> Host: rahulshettyacademy.com
+2021-10-08 16:49:05 DEBUG >> Connection: Keep-Alive
+2021-10-08 16:49:05 DEBUG >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_292)
+2021-10-08 16:49:05 DEBUG >> Accept-Encoding: gzip,deflate
+2021-10-08 16:49:05 DEBUG  >> "{[\r][\n]"
+2021-10-08 16:49:05 DEBUG  >> "  "location": {[\r][\n]"
+2021-10-08 16:49:05 DEBUG  >> "    "lat": -38.383494,[\r][\n]"
+2021-10-08 16:49:05 DEBUG  >> "    "lng": 33.427362[\r][\n]"
+2021-10-08 16:49:05 DEBUG  >> "  },[\r][\n]"
+2021-10-08 16:49:05 DEBUG  >> "  "accuracy": 50,[\r][\n]"
+2021-10-08 16:49:05 DEBUG  >> "  "name": "Rahul Shetty Academy",[\r][\n]"
+2021-10-08 16:49:05 DEBUG  >> "  "phone_number": "(+91) 983 893 3937",[\r][\n]"
+2021-10-08 16:49:05 DEBUG  >> "  "address": "29, side layout, cohen 09",[\r][\n]"
+2021-10-08 16:49:05 DEBUG  >> "  "types": [[\r][\n]"
+2021-10-08 16:49:05 DEBUG  >> "    "shoe park",[\r][\n]"
+2021-10-08 16:49:05 DEBUG  >> "    "shop"[\r][\n]"
+2021-10-08 16:49:05 DEBUG  >> "  ],[\r][\n]"
+2021-10-08 16:49:05 DEBUG  >> "  "website": "http://rahulshettyacademy.com",[\r][\n]"
+2021-10-08 16:49:05 DEBUG  >> "  "language": "French-IN"[\r][\n]"
+2021-10-08 16:49:05 DEBUG  >> "}[\r][\n]"
+2021-10-08 16:49:05 DEBUG  << "HTTP/1.1 200 OK[\r][\n]"
+2021-10-08 16:49:05 DEBUG  << "Date: Fri, 08 Oct 2021 11:19:06 GMT[\r][\n]"
+2021-10-08 16:49:05 DEBUG  << "Server: Apache/2.4.18 (Ubuntu)[\r][\n]"
+2021-10-08 16:49:05 DEBUG  << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-10-08 16:49:05 DEBUG  << "Access-Control-Allow-Methods: POST[\r][\n]"
+2021-10-08 16:49:05 DEBUG  << "Access-Control-Max-Age: 3600[\r][\n]"
+2021-10-08 16:49:05 DEBUG  << "Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With[\r][\n]"
+2021-10-08 16:49:05 DEBUG  << "Content-Length: 194[\r][\n]"
+2021-10-08 16:49:05 DEBUG  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+2021-10-08 16:49:05 DEBUG  << "Connection: Keep-Alive[\r][\n]"
+2021-10-08 16:49:05 DEBUG  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2021-10-08 16:49:05 DEBUG  << "[\r][\n]"
+2021-10-08 16:49:05 DEBUG Receiving response: HTTP/1.1 200 OK
+2021-10-08 16:49:05 DEBUG << HTTP/1.1 200 OK
+2021-10-08 16:49:05 DEBUG << Date: Fri, 08 Oct 2021 11:19:06 GMT
+2021-10-08 16:49:05 DEBUG << Server: Apache/2.4.18 (Ubuntu)
+2021-10-08 16:49:05 DEBUG << Access-Control-Allow-Origin: *
+2021-10-08 16:49:05 DEBUG << Access-Control-Allow-Methods: POST
+2021-10-08 16:49:05 DEBUG << Access-Control-Max-Age: 3600
+2021-10-08 16:49:05 DEBUG << Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+2021-10-08 16:49:05 DEBUG << Content-Length: 194
+2021-10-08 16:49:05 DEBUG << Keep-Alive: timeout=5, max=100
+2021-10-08 16:49:05 DEBUG << Connection: Keep-Alive
+2021-10-08 16:49:05 DEBUG << Content-Type: application/json;charset=UTF-8
+2021-10-08 16:49:06 DEBUG Connection can be kept alive for 5000 MILLISECONDS
+2021-10-08 16:49:06 DEBUG Parsing response as: application/json;charset=UTF-8
+2021-10-08 16:49:06 DEBUG Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-10-08 16:49:06 DEBUG  << "{"status":"OK","place_id":"92b28d3e7a133dd30e1c4c4a158f9f76","scope":"APP","reference":"a527a14e94d21b0f71d6f27a0c967839a527a14e94d21b0f71d6f27a0c967839","id":"a527a14e94d21b0f71d6f27a0c967839"}"
+2021-10-08 16:49:06 DEBUG Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@13a37e2a
+2021-10-08 16:49:06 DEBUG Connection can be kept alive for 5000 MILLISECONDS
+2021-10-08 16:49:06 DEBUG Get connection for route {s}->https://rahulshettyacademy.com:443
+2021-10-08 16:49:06 DEBUG Connecting to rahulshettyacademy.com:443
+2021-10-08 16:49:06 DEBUG CookieSpec selected: ignoreCookies
+2021-10-08 16:49:06 DEBUG Auth cache not set in the context
+2021-10-08 16:49:06 DEBUG Target auth state: UNCHALLENGED
+2021-10-08 16:49:06 DEBUG Proxy auth state: UNCHALLENGED
+2021-10-08 16:49:06 DEBUG Attempt 1 to execute request
+2021-10-08 16:49:06 DEBUG Sending request: PUT /maps/api/place/update/json?key=qaclick123 HTTP/1.1
+2021-10-08 16:49:06 DEBUG  >> "PUT /maps/api/place/update/json?key=qaclick123 HTTP/1.1[\r][\n]"
+2021-10-08 16:49:06 DEBUG  >> "Accept: */*[\r][\n]"
+2021-10-08 16:49:06 DEBUG  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2021-10-08 16:49:06 DEBUG  >> "Content-Length: 105[\r][\n]"
+2021-10-08 16:49:06 DEBUG  >> "Host: rahulshettyacademy.com[\r][\n]"
+2021-10-08 16:49:06 DEBUG  >> "Connection: Keep-Alive[\r][\n]"
+2021-10-08 16:49:06 DEBUG  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_292)[\r][\n]"
+2021-10-08 16:49:06 DEBUG  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-10-08 16:49:06 DEBUG  >> "[\r][\n]"
+2021-10-08 16:49:06 DEBUG >> PUT /maps/api/place/update/json?key=qaclick123 HTTP/1.1
+2021-10-08 16:49:06 DEBUG >> Accept: */*
+2021-10-08 16:49:06 DEBUG >> Content-Type: application/json; charset=UTF-8
+2021-10-08 16:49:06 DEBUG >> Content-Length: 105
+2021-10-08 16:49:06 DEBUG >> Host: rahulshettyacademy.com
+2021-10-08 16:49:06 DEBUG >> Connection: Keep-Alive
+2021-10-08 16:49:06 DEBUG >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_292)
+2021-10-08 16:49:06 DEBUG >> Accept-Encoding: gzip,deflate
+2021-10-08 16:49:06 DEBUG  >> "{[\r][\n]"
+2021-10-08 16:49:06 DEBUG  >> ""place_id":"92b28d3e7a133dd30e1c4c4a158f9f76",[\r][\n]"
+2021-10-08 16:49:06 DEBUG  >> ""address":"Winter Walk, China",[\r][\n]"
+2021-10-08 16:49:06 DEBUG  >> ""key":"qaclick123"[\r][\n]"
+2021-10-08 16:49:06 DEBUG  >> "}"
+2021-10-08 16:49:08 DEBUG  << "HTTP/1.1 200 OK[\r][\n]"
+2021-10-08 16:49:08 DEBUG  << "Date: Fri, 08 Oct 2021 11:19:06 GMT[\r][\n]"
+2021-10-08 16:49:08 DEBUG  << "Server: Apache/2.4.18 (Ubuntu)[\r][\n]"
+2021-10-08 16:49:08 DEBUG  << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-10-08 16:49:08 DEBUG  << "Access-Control-Allow-Methods: POST[\r][\n]"
+2021-10-08 16:49:08 DEBUG  << "Access-Control-Max-Age: 3600[\r][\n]"
+2021-10-08 16:49:08 DEBUG  << "Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With[\r][\n]"
+2021-10-08 16:49:08 DEBUG  << "Content-Length: 38[\r][\n]"
+2021-10-08 16:49:08 DEBUG  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+2021-10-08 16:49:08 DEBUG  << "Connection: Keep-Alive[\r][\n]"
+2021-10-08 16:49:08 DEBUG  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2021-10-08 16:49:08 DEBUG  << "[\r][\n]"
+2021-10-08 16:49:08 DEBUG Receiving response: HTTP/1.1 200 OK
+2021-10-08 16:49:08 DEBUG << HTTP/1.1 200 OK
+2021-10-08 16:49:08 DEBUG << Date: Fri, 08 Oct 2021 11:19:06 GMT
+2021-10-08 16:49:08 DEBUG << Server: Apache/2.4.18 (Ubuntu)
+2021-10-08 16:49:08 DEBUG << Access-Control-Allow-Origin: *
+2021-10-08 16:49:08 DEBUG << Access-Control-Allow-Methods: POST
+2021-10-08 16:49:08 DEBUG << Access-Control-Max-Age: 3600
+2021-10-08 16:49:08 DEBUG << Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+2021-10-08 16:49:08 DEBUG << Content-Length: 38
+2021-10-08 16:49:08 DEBUG << Keep-Alive: timeout=5, max=100
+2021-10-08 16:49:08 DEBUG << Connection: Keep-Alive
+2021-10-08 16:49:08 DEBUG << Content-Type: application/json;charset=UTF-8
+2021-10-08 16:49:08 DEBUG Connection can be kept alive for 5000 MILLISECONDS
+2021-10-08 16:49:08 DEBUG Parsing response as: application/json;charset=UTF-8
+2021-10-08 16:49:08 DEBUG Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-10-08 16:49:08 DEBUG  << "{"msg":"Address successfully updated"}"
+2021-10-08 16:49:08 DEBUG Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@24934262
+2021-10-08 16:49:08 DEBUG Connection can be kept alive for 5000 MILLISECONDS
+2021-10-08 16:49:08 DEBUG Get connection for route {s}->https://rahulshettyacademy.com:443
+2021-10-08 16:49:08 DEBUG Connecting to rahulshettyacademy.com:443
+2021-10-08 16:49:08 DEBUG CookieSpec selected: ignoreCookies
+2021-10-08 16:49:08 DEBUG Auth cache not set in the context
+2021-10-08 16:49:08 DEBUG Target auth state: UNCHALLENGED
+2021-10-08 16:49:08 DEBUG Proxy auth state: UNCHALLENGED
+2021-10-08 16:49:08 DEBUG Attempt 1 to execute request
+2021-10-08 16:49:08 DEBUG Sending request: GET /maps/api/place/get/json?key=qaclick123&place_id=92b28d3e7a133dd30e1c4c4a158f9f76 HTTP/1.1
+2021-10-08 16:49:08 DEBUG  >> "GET /maps/api/place/get/json?key=qaclick123&place_id=92b28d3e7a133dd30e1c4c4a158f9f76 HTTP/1.1[\r][\n]"
+2021-10-08 16:49:08 DEBUG  >> "Accept: */*[\r][\n]"
+2021-10-08 16:49:08 DEBUG  >> "Host: rahulshettyacademy.com[\r][\n]"
+2021-10-08 16:49:08 DEBUG  >> "Connection: Keep-Alive[\r][\n]"
+2021-10-08 16:49:08 DEBUG  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_292)[\r][\n]"
+2021-10-08 16:49:08 DEBUG  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-10-08 16:49:08 DEBUG  >> "[\r][\n]"
+2021-10-08 16:49:08 DEBUG >> GET /maps/api/place/get/json?key=qaclick123&place_id=92b28d3e7a133dd30e1c4c4a158f9f76 HTTP/1.1
+2021-10-08 16:49:08 DEBUG >> Accept: */*
+2021-10-08 16:49:08 DEBUG >> Host: rahulshettyacademy.com
+2021-10-08 16:49:08 DEBUG >> Connection: Keep-Alive
+2021-10-08 16:49:08 DEBUG >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_292)
+2021-10-08 16:49:08 DEBUG >> Accept-Encoding: gzip,deflate
+2021-10-08 16:49:10 DEBUG  << "HTTP/1.1 200 OK[\r][\n]"
+2021-10-08 16:49:10 DEBUG  << "Date: Fri, 08 Oct 2021 11:19:08 GMT[\r][\n]"
+2021-10-08 16:49:10 DEBUG  << "Server: Apache/2.4.18 (Ubuntu)[\r][\n]"
+2021-10-08 16:49:10 DEBUG  << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-10-08 16:49:10 DEBUG  << "Access-Control-Allow-Methods: POST[\r][\n]"
+2021-10-08 16:49:10 DEBUG  << "Access-Control-Max-Age: 3600[\r][\n]"
+2021-10-08 16:49:10 DEBUG  << "Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With[\r][\n]"
+2021-10-08 16:49:10 DEBUG  << "Content-Length: 267[\r][\n]"
+2021-10-08 16:49:10 DEBUG  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+2021-10-08 16:49:10 DEBUG  << "Connection: Keep-Alive[\r][\n]"
+2021-10-08 16:49:10 DEBUG  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2021-10-08 16:49:10 DEBUG  << "[\r][\n]"
+2021-10-08 16:49:10 DEBUG Receiving response: HTTP/1.1 200 OK
+2021-10-08 16:49:10 DEBUG << HTTP/1.1 200 OK
+2021-10-08 16:49:10 DEBUG << Date: Fri, 08 Oct 2021 11:19:08 GMT
+2021-10-08 16:49:10 DEBUG << Server: Apache/2.4.18 (Ubuntu)
+2021-10-08 16:49:10 DEBUG << Access-Control-Allow-Origin: *
+2021-10-08 16:49:10 DEBUG << Access-Control-Allow-Methods: POST
+2021-10-08 16:49:10 DEBUG << Access-Control-Max-Age: 3600
+2021-10-08 16:49:10 DEBUG << Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+2021-10-08 16:49:10 DEBUG << Content-Length: 267
+2021-10-08 16:49:10 DEBUG << Keep-Alive: timeout=5, max=100
+2021-10-08 16:49:10 DEBUG << Connection: Keep-Alive
+2021-10-08 16:49:10 DEBUG << Content-Type: application/json;charset=UTF-8
+2021-10-08 16:49:10 DEBUG Connection can be kept alive for 5000 MILLISECONDS
+2021-10-08 16:49:10 DEBUG Parsing response as: application/json;charset=UTF-8
+2021-10-08 16:49:10 DEBUG Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-10-08 16:49:10 DEBUG  << "{"location":{"latitude":"-38.383494","longitude":"33.427362"},"accuracy":"50","name":"Rahul Shetty Academy","phone_number":"(+91) 983 893 3937","address":"Winter Walk, China","types":"shoe park,shop","website":"http:\/\/rahulshettyacademy.com","language":"French-IN"}"
+2021-10-08 16:49:10 DEBUG Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5c534b5b
+2021-10-08 16:49:10 DEBUG Connection can be kept alive for 5000 MILLISECONDS

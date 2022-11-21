@@ -1,0 +1,60 @@
+                                                      nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnb bvz2021-10-09 10:58:18 DEBUG Get connection for route {}->http://216.10.245.166:80
+2021-10-09 10:58:18 DEBUG Connecting to 216.10.245.166:80
+2021-10-09 10:58:18 DEBUG CookieSpec selected: ignoreCookies
+2021-10-09 10:58:18 DEBUG Auth cache not set in the context
+2021-10-09 10:58:18 DEBUG Target auth state: UNCHALLENGED
+2021-10-09 10:58:18 DEBUG Proxy auth state: UNCHALLENGED
+2021-10-09 10:58:18 DEBUG Attempt 1 to execute request
+2021-10-09 10:58:18 DEBUG Sending request: POST /Library/Addbook.php HTTP/1.1
+2021-10-09 10:58:18 DEBUG  >> "POST /Library/Addbook.php HTTP/1.1[\r][\n]"
+2021-10-09 10:58:18 DEBUG  >> "Accept: */*[\r][\n]"
+2021-10-09 10:58:18 DEBUG  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2021-10-09 10:58:18 DEBUG  >> "Content-Length: 92[\r][\n]"
+2021-10-09 10:58:18 DEBUG  >> "Host: 216.10.245.166[\r][\n]"
+2021-10-09 10:58:18 DEBUG  >> "Connection: Keep-Alive[\r][\n]"
+2021-10-09 10:58:18 DEBUG  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_292)[\r][\n]"
+2021-10-09 10:58:18 DEBUG  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-10-09 10:58:18 DEBUG  >> "[\r][\n]"
+2021-10-09 10:58:18 DEBUG >> POST /Library/Addbook.php HTTP/1.1
+2021-10-09 10:58:18 DEBUG >> Accept: */*
+2021-10-09 10:58:18 DEBUG >> Content-Type: application/json; charset=UTF-8
+2021-10-09 10:58:18 DEBUG >> Content-Length: 92
+2021-10-09 10:58:18 DEBUG >> Host: 216.10.245.166
+2021-10-09 10:58:18 DEBUG >> Connection: Keep-Alive
+2021-10-09 10:58:18 DEBUG >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_292)
+2021-10-09 10:58:18 DEBUG >> Accept-Encoding: gzip,deflate
+2021-10-09 10:58:18 DEBUG  >> ""name":"Learn Appium Automation with Java",[\n]"
+2021-10-09 10:58:18 DEBUG  >> ""isbn":"bcd",[\n]"
+2021-10-09 10:58:18 DEBUG  >> ""aisle":"227",[\n]"
+2021-10-09 10:58:18 DEBUG  >> ""author":"John foe""
+2021-10-09 10:58:18 DEBUG  << "HTTP/1.1 200 OK[\r][\n]"
+2021-10-09 10:58:19 DEBUG  << "Date: Sat, 09 Oct 2021 05:28:18 GMT[\r][\n]"
+2021-10-09 10:58:19 DEBUG  << "Server: Apache[\r][\n]"
+2021-10-09 10:58:19 DEBUG  << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-10-09 10:58:19 DEBUG  << "Access-Control-Allow-Methods: POST[\r][\n]"
+2021-10-09 10:58:19 DEBUG  << "Access-Control-Max-Age: 3600[\r][\n]"
+2021-10-09 10:58:19 DEBUG  << "Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With[\r][\n]"
+2021-10-09 10:58:19 DEBUG  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+2021-10-09 10:58:19 DEBUG  << "Connection: Keep-Alive[\r][\n]"
+2021-10-09 10:58:19 DEBUG  << "Transfer-Encoding: chunked[\r][\n]"
+2021-10-09 10:58:19 DEBUG  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2021-10-09 10:58:19 DEBUG  << "[\r][\n]"
+2021-10-09 10:58:19 DEBUG Receiving response: HTTP/1.1 200 OK
+2021-10-09 10:58:19 DEBUG << HTTP/1.1 200 OK
+2021-10-09 10:58:19 DEBUG << Date: Sat, 09 Oct 2021 05:28:18 GMT
+2021-10-09 10:58:19 DEBUG << Server: Apache
+2021-10-09 10:58:19 DEBUG << Access-Control-Allow-Origin: *
+2021-10-09 10:58:19 DEBUG << Access-Control-Allow-Methods: POST
+2021-10-09 10:58:19 DEBUG << Access-Control-Max-Age: 3600
+2021-10-09 10:58:19 DEBUG << Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+2021-10-09 10:58:19 DEBUG << Keep-Alive: timeout=5, max=100
+2021-10-09 10:58:19 DEBUG << Connection: Keep-Alive
+2021-10-09 10:58:19 DEBUG << Transfer-Encoding: chunked
+2021-10-09 10:58:19 DEBUG << Content-Type: application/json; charset=UTF-8
+2021-10-09 10:58:19 DEBUG Connection can be kept alive for 5000 MILLISECONDS
+2021-10-09 10:58:19 DEBUG Parsing response as: application/json; charset=UTF-8
+2021-10-09 10:58:19 DEBUG Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-10-09 10:58:19 DEBUG  << "0[\r][\n]"
+2021-10-09 10:58:19 DEBUG  << "[\r][\n]"
+2021-10-09 10:58:19 DEBUG Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3eed0f5
+2021-10-09 10:58:19 DEBUG Connection can be kept alive for 5000 MILLISECONDS

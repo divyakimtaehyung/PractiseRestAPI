@@ -1,0 +1,60 @@
+2021-10-09 10:56:37 DEBUG Get connection for route {}->http://216.10.245.166:80
+2021-10-09 10:56:37 DEBUG Connecting to 216.10.245.166:80
+2021-10-09 10:56:37 DEBUG CookieSpec selected: ignoreCookies
+2021-10-09 10:56:37 DEBUG Auth cache not set in the context
+2021-10-09 10:56:37 DEBUG Target auth state: UNCHALLENGED
+2021-10-09 10:56:37 DEBUG Proxy auth state: UNCHALLENGED
+2021-10-09 10:56:37 DEBUG Attempt 1 to execute request
+2021-10-09 10:56:37 DEBUG Sending request: POST /Library/Addbook.php HTTP/1.1
+2021-10-09 10:56:37 DEBUG  >> "POST /Library/Addbook.php HTTP/1.1[\r][\n]"
+2021-10-09 10:56:37 DEBUG  >> "Accept: */*[\r][\n]"
+2021-10-09 10:56:37 DEBUG  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2021-10-09 10:56:37 DEBUG  >> "Content-Length: 92[\r][\n]"
+2021-10-09 10:56:37 DEBUG  >> "Host: 216.10.245.166[\r][\n]"
+2021-10-09 10:56:37 DEBUG  >> "Connection: Keep-Alive[\r][\n]"
+2021-10-09 10:56:37 DEBUG  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_292)[\r][\n]"
+2021-10-09 10:56:37 DEBUG  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-10-09 10:56:37 DEBUG  >> "[\r][\n]"
+2021-10-09 10:56:37 DEBUG >> POST /Library/Addbook.php HTTP/1.1
+2021-10-09 10:56:37 DEBUG >> Accept: */*
+2021-10-09 10:56:37 DEBUG >> Content-Type: application/json; charset=UTF-8
+2021-10-09 10:56:37 DEBUG >> Content-Length: 92
+2021-10-09 10:56:37 DEBUG >> Host: 216.10.245.166
+2021-10-09 10:56:37 DEBUG >> Connection: Keep-Alive
+2021-10-09 10:56:37 DEBUG >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_292)
+2021-10-09 10:56:37 DEBUG >> Accept-Encoding: gzip,deflate
+2021-10-09 10:56:37 DEBUG  >> ""name":"Learn Appium Automation with Java",[\n]"
+2021-10-09 10:56:37 DEBUG  >> ""isbn":"bcd",[\n]"
+2021-10-09 10:56:37 DEBUG  >> ""aisle":"227",[\n]"
+2021-10-09 10:56:37 DEBUG  >> ""author":"John foe""
+2021-10-09 10:56:37 DEBUG  << "HTTP/1.1 200 OK[\r][\n]"
+2021-10-09 10:56:37 DEBUG  << "Date: Sat, 09 Oct 2021 05:26:37 GMT[\r][\n]"
+2021-10-09 10:56:37 DEBUG  << "Server: Apache[\r][\n]"
+2021-10-09 10:56:37 DEBUG  << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-10-09 10:56:37 DEBUG  << "Access-Control-Allow-Methods: POST[\r][\n]"
+2021-10-09 10:56:37 DEBUG  << "Access-Control-Max-Age: 3600[\r][\n]"
+2021-10-09 10:56:37 DEBUG  << "Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With[\r][\n]"
+2021-10-09 10:56:37 DEBUG  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+2021-10-09 10:56:37 DEBUG  << "Connection: Keep-Alive[\r][\n]"
+2021-10-09 10:56:37 DEBUG  << "Transfer-Encoding: chunked[\r][\n]"
+2021-10-09 10:56:37 DEBUG  << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2021-10-09 10:56:37 DEBUG  << "[\r][\n]"
+2021-10-09 10:56:37 DEBUG Receiving response: HTTP/1.1 200 OK
+2021-10-09 10:56:37 DEBUG << HTTP/1.1 200 OK
+2021-10-09 10:56:37 DEBUG << Date: Sat, 09 Oct 2021 05:26:37 GMT
+2021-10-09 10:56:37 DEBUG << Server: Apache
+2021-10-09 10:56:37 DEBUG << Access-Control-Allow-Origin: *
+2021-10-09 10:56:37 DEBUG << Access-Control-Allow-Methods: POST
+2021-10-09 10:56:37 DEBUG << Access-Control-Max-Age: 3600
+2021-10-09 10:56:37 DEBUG << Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+2021-10-09 10:56:37 DEBUG << Keep-Alive: timeout=5, max=100
+2021-10-09 10:56:37 DEBUG << Connection: Keep-Alive
+2021-10-09 10:56:37 DEBUG << Transfer-Encoding: chunked
+2021-10-09 10:56:37 DEBUG << Content-Type: application/json; charset=UTF-8
+2021-10-09 10:56:37 DEBUG Connection can be kept alive for 5000 MILLISECONDS
+2021-10-09 10:56:37 DEBUG Parsing response as: application/json; charset=UTF-8
+2021-10-09 10:56:37 DEBUG Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-10-09 10:56:37 DEBUG  << "0[\r][\n]"
+2021-10-09 10:56:37 DEBUG  << "[\r][\n]"
+2021-10-09 10:56:37 DEBUG Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@383f1975
+2021-10-09 10:56:37 DEBUG Connection can be kept alive for 5000 MILLISECONDS
