@@ -1,37 +1,72 @@
-@Test
-public void testCreateResource() {
-    String requestBody = "{ \"name\": \"New Item\", \"description\": \"This is a new item.\" }";
+package com.api.pojo;
 
-    given()
-        .contentType(ContentType.JSON)
-        .body(requestBody)
-        .log().all() // Log the request details
-    .when()
-        .post("/items") // Assuming baseURI + basePath is "https://api.example.com/v1"
-    .then()
-        .statusCode(201) // Expect Created status
-        .body("name", equalTo("New Item"))
-        .log().all(); // Log the response details
+public class User {
+    private String name;
+    private String job;
+
+    // Constructors
+    public User() {}
+
+    public User(String name, String job) {
+        this.name = name;
+        this.job = job;
+    }
+
+    // Getters and Setters
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getJob() {
+        return job;
+    }
+    public void setJob(String job) {
+        this.job = job;
+    }
 }
 
-// Using a POJO
-class Item {
-    public String name;
-    public String description;
-}
 
-@Test
-public void testCreateResourceWithPOJO() {
-    Item newItem = new Item();
-    newItem.name = "Another Item";
-    newItem.description = "Description for another item.";
 
-    given()
-        .contentType(ContentType.JSON)
-        .body(newItem)
-    .when()
-        .post("/items")
-    .then()
-        .statusCode(201)
-        .body("name", equalTo("Another Item"));
+
+
+//
+
+package com.api.tests;
+
+import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+import com.api.pojo.User;
+import org.testng.annotations.Test;
+import static org.hamcrest.Matchers.*;
+
+public class UserAPITest {
+
+    @Test
+    public void createUserTest() {
+        // Set base URI
+        RestAssured.baseURI = "https://reqres.in/api";
+
+        // Create POJO object
+        User user = new User("John", "Engineer");
+
+        // Make POST request using POJO as body
+        Response response = RestAssured
+            .given()
+                .contentType(ContentType.JSON)
+                .body(user)
+            .when()
+                .post("/users")
+            .then()
+                .statusCode(201)
+                .body("name", equalTo("John"))
+                .body("job", equalTo("Engineer"))
+                .extract().response();
+
+        // Print response
+        System.out.println(response.asPrettyString());
+    }
 }
